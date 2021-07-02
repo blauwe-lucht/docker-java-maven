@@ -9,3 +9,4 @@ RUN apt-get update && \
 	rm -rf /var/lib/apt/lists/*
 
 ENV PATH="$PATH:/opt/maven/bin"
+ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
